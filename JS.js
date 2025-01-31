@@ -19,32 +19,32 @@ button_submit.onclick = function(){
 
 button_one.onclick = function(){
     selection_text.innerHTML="You rate 1 out of 5";
-    feedback_image.src="images/illustration-thank-you.svg";
+    feedback_image.src="illustration-thank-you.svg";
     thankyou_head.innerHTML="Thank you!"
     thankyou_text.innerHTML="We appreciate you taking the time to give rating. If you ever need more support, don`t hesitate to get in touch!";
     
 }
 button_two.onclick = function(){
     selection_text.innerHTML="You rate 2 out of 5";
-    feedback_image.src="images/illustration-thank-you.svg";
+    feedback_image.src="illustration-thank-you.svg";
     thankyou_head.innerHTML="Thank you!"
     thankyou_text.innerHTML="We appreciate you taking the time to give rating. If you ever need more support, don`t hesitate to get in touch!";
 }
 button_three.onclick = function(){
     selection_text.innerHTML="You rate 3 out of 5";
-    feedback_image.src="images/illustration-thank-you.svg";
+    feedback_image.src="illustration-thank-you.svg";
     thankyou_head.innerHTML="Thank you!"
     thankyou_text.innerHTML="We appreciate you taking the time to give rating. If you ever need more support, don`t hesitate to get in touch!";
 }
 button_four.onclick = function(){
     selection_text.innerHTML="You rate 4 out of 5";
-    feedback_image.src="images/illustration-thank-you.svg";
+    feedback_image.src="illustration-thank-you.svg";
     thankyou_head.innerHTML="Thank you!"
     thankyou_text.innerHTML="We appreciate you taking the time to give rating. If you ever need more support, don`t hesitate to get in touch!";
 }
 button_five.onclick = function(){
     selection_text.innerHTML="You rate 5 out of 5";
-    feedback_image.src="images/illustration-thank-you.svg";
+    feedback_image.src="illustration-thank-you.svg";
     thankyou_head.innerHTML="Thank you!"
     thankyou_text.innerHTML="We appreciate you taking the time to give rating. If you ever need more support, don`t hesitate to get in touch!";
 }
