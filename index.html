@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+ <!-- fonts end -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive rating component</title>
+</head>
+<body>
+<main>
+<div class="container-box">
+        <div class="star-background">
+            <img alt="star" src="icon-star.svg" class="star-img">
+        </div>
+
+        <div class="info">
+          <h2>How did we do?</h2>
+          <p>Please let us know how we did with your support request. All feedbacks are appreciated to help us
+            improve our offering!
+          </p>
+        </div>
+
+        <div class="rating">
+          <button class="rates" id="one">1</button>
+          <button class="rates" id="two">2</button>
+          <button class="rates" id="three">3</button>
+          <button class="rates" id="four">4</button>
+          <button class="rates" id="five">5</button>
+        </div>
+        
+        <div class="send">
+          <button type="submit" id="submit">SUBMIT</button>
+        </div>
+
+</div>
+<!-- RATING ENDS HERE! -->
+
+<!-- THANK YOU BOX! -->
+<div class="thankyou-box">
+  <img alt="thankyou" src="crying.png" class="thankyou-img">
+
+  <div class="selection-info">
+     <p id="selection-text">Please rate it!</p>
+  </div>
+
+  <div class="thankyou-info">
+    <h2 class="thankyou-head">Feedback Needed!</h2>
+    <p class="thankyou-text">Your feedbacks help us understand your needs.
+    </p>
+  </div>
+
+</div>
+
+</main>
+<script src="JS.js"></script>
+</body>
+</html>
